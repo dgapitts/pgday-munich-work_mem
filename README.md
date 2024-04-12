@@ -3,8 +3,11 @@
 ## Intro
 Postgres work_mem and private memory management is an important topic but not often discussed in depth at postgres events?
 I'm presenting at pgDay DE (Munich) 2024 on this topic in-depth and would like to focus on just
+
 (a) the recent hash_mem_multiplier changes affecting anyone upgrading to pg15 or pg16 and
+
 (b) some of the extra challenges DBaaS users have
+
 (c) tuning using heuristics (PGTune) vs ML (DBtune)
 
 
